@@ -74,16 +74,13 @@
           <li>
             <a href="#contact" class="menu-btn nav-link contact">Contact</a>
           </li>
+
           <li>
-            <a
-              href="https://drive.google.com/u/0/uc?id=11J8o3BDozE0QKCrvFbteWAAF-ddWXZG6&export=download"
-              class="menu-btn nav-link resume"
-              id="resume-button-1"
-              download="Jivak-Sute-Resume"
-            >
-              Resume
-              <i class="material-icons" id="download">download</i>
-            </a>
+            <div id="resume-button-1">
+              <a id="resume-link-1" class="button button--flex" target="_blank">
+                Resume<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
           </li>
         </ul>
         <div class="menu-btn">
@@ -105,13 +102,10 @@
           <div class="text-3">
             I'm an <span class="typing" id="user-detail-intro"></span>
           </div>
-          <div>
-            <a
-              href="https://drive.google.com/u/0/uc?id=11J8o3BDozE0QKCrvFbteWAAF-ddWXZG6&export=download"
-              id="resume-button-2"
-              download="Jivak-Sute-Resume"
-              >Resume<i class="material-icons" id="download1">download</i></a
-            >
+          <div id="resume-button-2">
+            <a id="resume-link-2" class="button button--flex" target="_blank">
+              Resume<i class="uil uil-download-alt button__icon"></i>
+            </a>
           </div>
         </div>
         <div class="passport">
@@ -299,7 +293,7 @@
             class="max-width"
             data-aos="fade-up"
             style="
-              display: flex;
+              /* display: flex; */
               flex-direction: column;
               align-items: center;
               justify-content: center;
@@ -334,6 +328,19 @@
               id="github-stats-card"
               style="max-width: 100%"
             />
+          </div>
+          <div
+            class="max-width"
+            id="github-streak-status"
+            data-aos="fade-up"
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+              margin-top: 20px;
+            "
+          >
             <img
               target="_blank"
               src="https://github-readme-stats.vercel.app/api/top-langs?username=hasbealam&show_icons=true&locale=en&layout=compact"
@@ -343,6 +350,7 @@
               style="max-width: 100%"
             />
           </div>
+
           <!-- git stack end -->
         </div>
       </div>

@@ -830,3 +830,25 @@ section .title::after {
     margin-top: 25px;
   }
 }
+@media (min-width: 0px) and (max-width: 640px) {
+  .serv-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #home .passport {
+    margin-left: 150px;
+    padding-top: 200px;
+    width: 350%;
+  }
+}
+@media (min-width: 641px) and (max-width: 1007px) {
+  .serv-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #home .passport {
+    margin-left: 1050px;
+    padding-top: 200px;
+    width: 350%;
+  }
+}
