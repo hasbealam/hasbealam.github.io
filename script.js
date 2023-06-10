@@ -65,7 +65,7 @@ var resumeLink = document.querySelector("#resume-button-1");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://drive.google.com/file/d/1yomrtT2uHbD5xZpcdhXqSHE-dXqy_rXX/view?usp=sharing",
+    "https://drive.google.com/file/d/1aC7uJnjVmC2ap7ZeuYczSj-XW_NTACGx/view?usp=sharing",
     "_blank"
   );
   let link = document.createElement("a");
@@ -79,7 +79,7 @@ var resumeLink = document.querySelector("#resume-button-2");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
   window.open(
-    "https://drive.google.com/file/d/1yomrtT2uHbD5xZpcdhXqSHE-dXqy_rXX/view?usp=sharing",
+    "https://drive.google.com/file/d/1aC7uJnjVmC2ap7ZeuYczSj-XW_NTACGx/view?usp=sharing",
     "_blank"
   );
   let link = document.createElement("a");
